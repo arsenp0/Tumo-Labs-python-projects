@@ -11,10 +11,10 @@ s = roll()
 
 #You could write this in a more Pythonic way for readability
 #Its shorter and easier to read
-if summ in (7, 11):
+if s in (7, 11):
     print("You won!")
 #Same here
-elif summ in (2, 3, 12):
+elif s in (2, 3, 12):
     print("Casino wins!")
 else:
     goal = s
